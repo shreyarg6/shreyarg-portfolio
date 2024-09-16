@@ -1,24 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreya's Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to an external stylesheet -->
-</head>
-<body>
-    <!-- Navbar with menu options -->
-    <nav class="navbar">
-        <ul>
-          {% extends "basenav.html" %}
-          {% endblock %}
-        </ul>
-    </nav>
+{% extends "basenav.html" %}
 
+{% block title %}Shreya's Portfolio{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shreya's Portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <style type="text/css">
+      .important { color: #336699; }
+  </style>
+{% endblock %}
+
+{% block content %}
     <!-- Content Section -->
     <div class="content">
         <h1>Welcome to Shreya's Portfolio</h1>
-        <p>I am a new developer/designer. Explore my works here!</p>
+        <p class="important">I am a new developer/designer. Explore my works here!</p>
     </div>
-</body>
-</html>
+{% endblock %}
