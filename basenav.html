@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="style.css" />
+    <title>{% block title %}{% endblock %} - Shreya's Portfolio</title>
+    {% endblock %}
+</head>
+<body>
+    <div id="content">
+        {% block content %}
+        <nav class="navbar">
+            <ul>
+                <a href="./index.html">Home</a>
+                <a href="./pages/about.html">About</a>
+                <a href="./pages/webdevprojects.html">Web Dev Projects</a>
+                <a href="./pages/cnit172projects.html">Purdue CNIT 172 Projects</a>
+                <a href="./pages/contact.html">Contact</a>
+            </ul>
+        </nav>
+        {% endblock %}
+    </div>
+    <div id="footer">
+        {% block footer %}
+        &copy; Copyright 2024 by <a href="#Shreya">Shreya</a>.
+        {% endblock %}
+    </div>
+</body>
+</html>
