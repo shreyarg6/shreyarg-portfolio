@@ -4,11 +4,11 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(27deg 95% 90%);
-    background-image: linear-gradient(
-        to right bottom,
-        hsl(252, 45%, 59%),
-        hsl(235, 8%, 70%),
-        hsl(302, 24%, 71%)
+    background-image: conic-gradient(
+        to left center,
+        hsl(136, 19%, 55%),
+        hsl(146, 64%, 14%),
+        hsl(251, 113%, 133%)
     );
 }
 
