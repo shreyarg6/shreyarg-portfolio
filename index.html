@@ -1,87 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        body {
-        min-block-size: 100vb;
-        font-family: sans-serif;
-        font-size: 1.4rem;
-        line-height: 1.5;
-        color: hsl(27deg 95% 90%);
-        background-image: linear-gradient(
-            to right bottom,
-            hsl(292deg 84% 60%),
-            hsl(0deg 72% 50%),
-            hsl(27deg 95% 60%)
-        );
-    }
-    
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        column-gap: 3rem;
-        row-gap: 1rem;
-        margin: 2rem;
-        padding-block: 2.2rem;
-        padding-inline: 3rem;
-        border-radius: 0.5rem;
-        background-color: hsl(292deg 84% 5% / 50%);
-    }
-    
-    .header__logo {
-        margin: 0;
-    }
-    
-    .header__img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-    }
-    
-    .header__ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        gap: 1rem;
-        list-style: none;
-    }
-    
-    .header__a {
-        display: block;
-        padding-inline: 1.5rem;
-        padding-block: 0.8rem;
-        color: hsl(27deg 95% 90% / 75%);
-        background: hsl(330deg 66% 10% / 60%);
-        text-decoration: none;
-        transition: color 0.2s ease-in-out;
-        border-radius: 0.5rem;
-    }
-    
-    .header__a:hover {
-        color: hsl(27deg 95% 90% / 95%);
-    }
-    
-    @media screen and (max-width: 1090px) {
-        .header {
-            padding-block: 3rem;
-            flex-direction: column;
-        }
-        
-        .header__ul {
-            margin-block-end: 0;
-            margin-block-start: 1rem;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-        }
-    }
-    </style>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shreya's Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to an external stylesheet -->
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to an external stylesheet -->
 
     <header class="header">
         <h1 class="header__logo"><a href="https://css-weekly.com"><img src="https://assets.codepen.io/47791/cssweekly-logo-full-white.svg" class="header__img" alt="CSS Weekly logo" width="300" height="43" /></a></h1>
