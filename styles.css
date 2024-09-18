@@ -6,9 +6,9 @@ body {
     color: hsl(27deg 95% 90%);
     background-image: linear-gradient(
         to right bottom,
-        hsl(252, 12%, 92%),
+        hsl(252, 45%, 59%),
         hsl(235, 8%, 70%),
-        hsl(207, 8%, 43%)
+        hsl(302, 24%, 71%)
     );
 }
 
