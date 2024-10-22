@@ -3,9 +3,9 @@ body {
     font-family: sans-serif;
     font-size: 1.4rem;
     line-height: 1.5;
-    color: hsl(239, 74%, 26%);
-    background-image:
-        linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235));
+    color: hsl(27deg 95% 90%);
+    background-image: 
+        linear-gradient(to right, rgb(10, 24, 48), rgb(14, 41, 101));
 }
 
 .header {
@@ -43,7 +43,7 @@ body {
     display: block;
     padding-inline: 1.5rem;
     padding-block: 0.8rem;
-    color: hsla(239, 74%, 26%);
+    color: hsla(30, 62%, 49%, 0.75);
     background: hsl(330deg 66% 10% / 60%);
     text-decoration: none;
     transition: color 0.2s ease-in-out;
@@ -51,7 +51,7 @@ body {
 }
 
 .header__a:hover {
-    color: hsl(239, 74%, 26%);
+    color: hsl(27deg 95% 90% / 95%);
 }
 
 @media screen and (max-width: 1090px) {
