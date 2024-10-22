@@ -5,7 +5,7 @@ body {
     line-height: 1.5;
     color: hsl(27deg 95% 90%);
     background-image: 
-        linear-gradient(to right, rgb(10, 24, 48), rgb(14, 41, 101));
+        linear-gradient(to right, rgb(10, 24, 48), rgb(56, 76, 119));
 }
 
 .header {
@@ -18,7 +18,7 @@ body {
     padding-block: 2.2rem;
     padding-inline: 3rem;
     border-radius: 0.5rem;
-    background-color: hsl(292deg 84% 5% / 50%);
+    background-color: hsla(240, 52%, 22%, 0.5);
 }
 
 .header__logo {
