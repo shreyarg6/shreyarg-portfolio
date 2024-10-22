@@ -43,7 +43,7 @@ body {
     display: block;
     padding-inline: 1.5rem;
     padding-block: 0.8rem;
-    color: hsla(30, 62%, 49%, 0.75);
+    color: hsla(239, 74%, 26%);
     background: hsl(330deg 66% 10% / 60%);
     text-decoration: none;
     transition: color 0.2s ease-in-out;
