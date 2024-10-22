@@ -5,7 +5,7 @@ body {
     line-height: 1.5;
     color: hsl(239, 74%, 26%);
     background-image:
-		hsl(239, 74%, 26%);
+        linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235));
 }
 
 .header {
