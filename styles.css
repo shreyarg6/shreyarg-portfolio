@@ -51,7 +51,7 @@ body {
 }
 
 .header__a:hover {
-    color: hsl(27deg 95% 90% / 95%);
+    color: hsl(239, 74%, 26%);
 }
 
 @media screen and (max-width: 1090px) {
