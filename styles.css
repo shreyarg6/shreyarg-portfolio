@@ -46,7 +46,7 @@ body {
     padding-inline: 1.5rem;
     padding-block: 0.8rem;
     color: hsl(0, 0%, 100%);
-    background: hsl(330deg 66% 10% / 40%);
+    background: rgb(0, 0, 0);
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     border-radius: 0.5rem;
