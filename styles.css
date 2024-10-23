@@ -4,7 +4,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(0, 0%, 100%);
-    /*padding: 20px;*/
+    margin: 20px;
     background-color: hsla(0, 0%, 0%, 0.5);
 }
 
@@ -51,12 +51,10 @@ body {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     border-radius: 0.5rem;
-    margin: 20px;
 }
 
 .header__a:hover {
     color: hsl(0, 0%, 100%);
-    margin: 20px;
 }
 
 @media screen and (max-width: 1090px) {
