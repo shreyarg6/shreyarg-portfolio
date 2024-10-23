@@ -4,7 +4,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(27deg 95% 90%);
-    background-color: hsl(240deg 84% 5% / 50%);
+    background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .header {
@@ -22,12 +22,14 @@ body {
 
 .header__logo {
     margin: 0;
+    background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .header__img {
     display: block;
     height: auto;
     max-width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .header__ul {
@@ -36,6 +38,7 @@ body {
     display: flex;
     gap: 1rem;
     list-style: none;
+    background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .header__a {
@@ -50,7 +53,7 @@ body {
 }
 
 .header__a:hover {
-    color: hsl(27deg 95% 90% / 95%);
+    color: hsl(0, 0%, 100%);
 }
 
 @media screen and (max-width: 1090px) {
