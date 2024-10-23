@@ -20,10 +20,10 @@ body {
     background-color: hsla(0, 0%, 0%, 0.5);
 }
 
-.header__logo {
+/*.header__logo {
     margin: 0;
     background-color: hsla(0, 0%, 0%, 0.5);
-}
+}*/
 
 .header__img {
     display: block;
