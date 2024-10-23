@@ -7,7 +7,7 @@ body {
     background-image: linear-gradient(
 		to right bottom,
 		hsl(252, 54%, 16%),
-		hsl(0deg 72% 50%),
+		hsl(252, 53%, 27%),
 		hsl(248, 44%, 14%)
 	);
 }
