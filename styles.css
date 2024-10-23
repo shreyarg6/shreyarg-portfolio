@@ -19,6 +19,7 @@ body {
     padding-inline: 3rem;
     border-radius: 0.5rem;
     background-color: hsla(0, 0%, 0%, 0.5);
+    padding-right: 30px
 }
 
 /*.header__logo {
