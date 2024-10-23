@@ -4,12 +4,6 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(27deg 95% 90%);
-    background-image: linear-gradient(
-		to right bottom,
-		hsl(252, 54%, 16%),
-		hsl(252, 53%, 27%),
-		hsl(248, 44%, 14%)
-	);
 }
 
 .header {
