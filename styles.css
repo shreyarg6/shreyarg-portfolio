@@ -51,6 +51,7 @@ body {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     border-radius: 0.5rem;
+    padding-right: 50px;
 }
 
 .header__a:hover {
