@@ -51,12 +51,12 @@ body {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     border-radius: 0.5rem;
-    padding: 20px;
+    margin: 20px;
 }
 
 .header__a:hover {
     color: hsl(0, 0%, 100%);
-    padding: 20px;
+    margin: 20px;
 }
 
 @media screen and (max-width: 1090px) {
