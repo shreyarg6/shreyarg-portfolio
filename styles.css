@@ -14,12 +14,11 @@ body {
     align-items: center;
     column-gap: 3rem;
     row-gap: 1rem;
-    margin: 2rem;
+    margin: 0;
     padding-block: 2.2rem;
     padding-inline: 3rem;
     border-radius: 0.5rem;
     background-color: hsla(0, 0%, 0%, 0.5);
-    padding-right: 30px
 }
 
 /*.header__logo {
