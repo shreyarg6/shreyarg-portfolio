@@ -4,6 +4,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(27deg 95% 90%);
+    background-color: hsl(240deg 84% 5% / 50%);
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
     padding-block: 2.2rem;
     padding-inline: 3rem;
     border-radius: 0.5rem;
-    background-color: hsl(292deg 84% 5% / 50%);
+    background-color: hsl(240deg 84% 5% / 50%);
 }
 
 .header__logo {
