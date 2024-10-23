@@ -31,6 +31,7 @@ body {
     height: auto;
     max-width: 100%;
     background-color: hsla(0, 0%, 0%, 0.5);
+    align-items: left;
 }
 
 .header__ul {
@@ -51,7 +52,6 @@ body {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     border-radius: 0.5rem;
-    align-items: left;
 }
 
 .header__a:hover {
