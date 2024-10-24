@@ -90,7 +90,6 @@ body {
 .gallery img{
     width: 100%;
     height: auto;
-    align-items: center;
 }
 
 .header__li:hover a{ 
