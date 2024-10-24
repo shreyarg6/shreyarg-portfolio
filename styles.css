@@ -76,7 +76,7 @@ body {
 
 .gallery{
     display: inline-block;
-    border: 1px solid hsl(0, 0%, 60%);
+    border: 0px solid hsl(0, 0%, 60%);
     margin: 5px;
     width: 400px;
 }
@@ -85,10 +85,10 @@ body {
     text-align: center;
 }
 .gallery:hover{
-    border: 1px solid hsl(0, 0%, 20%);
+    border: 2px solid hsl(0, 0%, 20%);
 }
 .gallery img{
-    width: 100%;
+    width: 400px;
     height: auto;
 }
 
