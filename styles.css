@@ -40,6 +40,7 @@ body {
     display: flex;
     gap: 1rem;
     list-style: none;
+    position: relative;
     /*background-color: hsla(0, 0%, 0%, 0.5);*/
 }
 
@@ -104,9 +105,9 @@ body {
     visibility: hidden;
     z-index: 1;
 }
-li:hover ul#submenu{
+li:hover ul{
     opacity: 1;
-    top: 80px;
+    top: 30px;
     visibility: visible;
 }
 #submenu li{
