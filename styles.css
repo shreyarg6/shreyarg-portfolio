@@ -78,7 +78,7 @@ body {
     display: inline-block;
     border: 0px solid hsl(0, 0%, 60%);
     margin: 5px;
-    width: 500px;
+    width: 200px;
 }
 .gallery .description{
     padding: 10px;
