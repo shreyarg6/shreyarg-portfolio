@@ -11,7 +11,7 @@ body {
 
 .custom-link {
     text-decoration: none;
-    color: inherit;
+    color: hsl(0, 100%, 100%);;
 }
 
 .header {
