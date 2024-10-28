@@ -9,7 +9,7 @@ body {
 }
 h6 {
     margin-bottom: 0;    /* Remove bottom margin for the title */
-    padding-bottom: 0;   /* Remove bottom padding for the title */
+    padding-bottom: 0.5rem 1rem;   /* Remove bottom padding for the title */
 }
 
 custom-link {
@@ -30,6 +30,8 @@ custom-link {
     background-color: hsla(0, 0%, 0%, 0.406);
     margin-top: 0.5rem 1rem; /* Ensure no margin on top */
     padding-top: 0.5rem 1rem; /* Ensure no padding on top */
+    border: 1px solid red; /* Temporary border to see submenu area */
+    background-color: #28a746; /* Make it visible */
 }
 
 .header__logo {
@@ -126,8 +128,6 @@ custom-link {
     visibility: hidden;
     z-index: 1;
     list-style: none;
-    border: 1px solid red; /* Temporary border to see submenu area */
-    background-color: #28a746; /* Make it visible */
 }
 li:hover ul#submenu{
     opacity: 1;
