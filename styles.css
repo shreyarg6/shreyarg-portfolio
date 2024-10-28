@@ -57,11 +57,11 @@ body {
 .header__a:hover {
     color: hsl(0, 0%, 100%);
 }
-/*
+
 .header__li:hover a{ 
     background: #34495e;
 }
-*/
+
 @media screen and (max-width: 1090px) {
     .header {
         padding-block: 3rem;
@@ -96,6 +96,7 @@ body {
     height: auto;
 }
 
+/*
 ul li ul.submenu li {
     display: block;
 }
@@ -115,10 +116,12 @@ ul li a:hover{
 ul li:hover ul.dropdown{
     display: block;
 }
+*/
 
+.header__li:hover a{ 
+    background: #34495e;
+}
 
-
-/*
 #submenu{
     left: 0;
     opacity: 0;
@@ -142,4 +145,3 @@ li:hover ul#submenu{
 #submenu a{
     background-color: #34495e;
 }
-*/
