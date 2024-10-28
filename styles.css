@@ -48,10 +48,10 @@ nav li a{
     padding: 5px;
 }
 
-
+/*
 .header__logo {
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
+    margin: 0; 
+    padding: 0;
     width: 60px;
     height: auto;
 }
@@ -63,6 +63,7 @@ nav li a{
     background-color: hsla(0, 0%, 0%, 0.5);
     align-items: left;
 }
+*/
 
 /*Gallery*/
 .gallery{
