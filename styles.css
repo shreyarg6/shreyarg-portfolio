@@ -7,6 +7,10 @@ body {
     background-color: hsla(0, 0%, 0%, 0.5);
     padding-left: 70px;
 }
+h6 {
+    margin-bottom: 0;    /* Remove bottom margin for the title */
+    padding-bottom: 0;   /* Remove bottom padding for the title */
+}
 
 custom-link {
     color: hsl(0, 100%, 100%);;
@@ -28,8 +32,9 @@ custom-link {
 }
 
 .header__logo {
-    margin: 0;
-    width: 60spx;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    width: 60px;
     height: auto;
 }
 
