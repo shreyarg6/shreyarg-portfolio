@@ -129,6 +129,7 @@ ul li:hover ul.dropdown{
     top: 100%;
     visibility: hidden;
     z-index: 1;
+    list-style: none;
 }
 li:hover ul#submenu{
     opacity: 1;
