@@ -4,7 +4,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(0, 100%, 100%);
-    background-color: hsla(0, 79%, 50%, 0.897);
+    background-color: hsl(0, 0%, 0%);
     padding-left: 71px;
 }
 /*Header*/
