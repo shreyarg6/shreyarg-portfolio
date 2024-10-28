@@ -68,24 +68,24 @@ custom-link {
 }
 /**************************/
 
-.dropdown ul, .dropdown{
+.dropdownmenu ul, .dropdownmenu li{
     margin: 0;
     padding: 0;
 }
 
-.dropdown ul{
+.dropdownmenu ul{
     background: gray;
     list-style: none;
     width: 100;
 }
 
-.dropdown li{
+.dropdownmenu li{
     float: left;
     position: relative;
     width: auto;
 }
 
-.dropdown a{
+.dropdownmenu a{
     background: #000000;
     color: hsl(0, 100%, 100%);
     display: block;
