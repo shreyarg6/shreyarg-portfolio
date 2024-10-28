@@ -20,6 +20,7 @@ body {
     padding-inline: 3rem;
     border-radius: 0.5rem;
     background-color: hsla(0, 0%, 0%, 0.406);
+    text-decoration: none;
 }
 
 /*.header__logo {
@@ -33,6 +34,7 @@ body {
     max-width: 100%;
     background-color: hsla(0, 0%, 0%, 0.5);
     align-items: left;
+    text-decoration: none;
 }
 
 .header__ul {
@@ -42,6 +44,7 @@ body {
     gap: 1rem;
     list-style: none;
     /*background-color: hsla(0, 0%, 0%, 0.5);*/
+    text-decoration: none;
 }
 
 .header__a {
@@ -53,14 +56,17 @@ body {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     border-radius: 0.5rem;
+    text-decoration: none;
 }
 
 .header__a:hover {
     color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
 .header__li:hover a{ 
     background: #34495e;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1090px) {
@@ -76,6 +82,7 @@ body {
         justify-content: center;
         gap: 1rem;
         background: hsla(0, 0%, 0%);
+        text-decoration: none;
     }
 }
 
