@@ -13,10 +13,6 @@ body {
     padding-left: 71px;
 }
 /*Header*/
-h6 {
-    margin-bottom: 0;    /* Remove bottom margin for the title */
-    padding-bottom: 0.5rem 1rem;   /* Remove bottom padding for the title */
-}
 header {
     padding: 30px 20px;
     background: #34495e;
