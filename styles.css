@@ -17,11 +17,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 3rem;
-    row-gap: 1rem;
-    margin: 2rem;
-    padding-block: 2.2rem;
-    padding-inline: 3rem;
+    column-gap: 1.5rem;
+    row-gap: 0.5rem;
+    margin: 1rem;
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
     border-radius: 0.5rem;
     background-color: hsla(0, 0%, 0%, 0.406);
 }
