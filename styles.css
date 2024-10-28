@@ -18,7 +18,7 @@ custom-link {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     justify-content: space-around;
     align-items: center;
     column-gap: 1rem;
@@ -53,6 +53,11 @@ custom-link {
     display: flex;
     gap: 1rem;
     list-style: none;
+}
+
+.header__li {
+    padding: 0.5rem 1rem; /* Adjust these values as needed */
+    border-radius: 0.25rem; /* Optional: keep a consistent rounded look */
 }
 
 .header__a {
