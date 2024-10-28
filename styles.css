@@ -19,6 +19,7 @@ custom-link {
 .header {
     display: flex;
     justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     column-gap: 1rem;
     row-gap: 0.25rem;
@@ -27,8 +28,8 @@ custom-link {
     padding-inline: 1rem;
     border-radius: 0.25rem;
     background-color: hsla(0, 0%, 0%, 0.406);
-    margin-top: 0; /* Ensure no margin on top */
-    padding-top: 0; /* Ensure no padding on top */
+    margin-top: 0.5rem 1rem; /* Ensure no margin on top */
+    padding-top: 0.5rem 1rem; /* Ensure no padding on top */
 }
 
 .header__logo {
