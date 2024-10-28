@@ -4,7 +4,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: hsl(0, 100%, 100%);
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 79%, 50%, 0.897);
     padding-left: 71px;
 }
 /*Header*/
@@ -28,7 +28,7 @@ custom-link {
     padding-block: 0.5rem;
     padding-inline: 1rem;
     border-radius: 0.25rem;
-    background-color: hsla(0, 0%, 0%, 0.406);
+    background-color: hsla(129, 77%, 45%, 0.406);
     margin-top: 0.5rem 1rem; /* Ensure no margin on top */
     padding-top: 0.5rem 1rem; /* Ensure no padding on top */
 }
