@@ -23,11 +23,13 @@ custom-link {
     padding-inline: 1rem;
     border-radius: 0.25rem;
     background-color: hsla(0, 0%, 0%, 0.406);
+    margin-top: 0; /* Ensure no margin on top */
+    padding-top: 0; /* Ensure no padding on top */
 }
 
 .header__logo {
     margin: 0;
-    width: 40px;
+    width: 60spx;
     height: auto;
 }
 
@@ -116,7 +118,6 @@ custom-link {
 }
 li:hover ul#submenu{
     opacity: 1;
-    top: 80px;
     visibility: visible;
 }
 #submenu li{
