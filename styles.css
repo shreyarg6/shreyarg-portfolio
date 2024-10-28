@@ -13,6 +13,13 @@ body {
     padding-left: 71px;
 }
 /*Header/Nav*/
+.container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #34495e; /* example color */
+}
 header {
     padding: 30px 20px;
     background: #34495e;
@@ -24,6 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 2rem;
 }
 ul{
     display: flex;
