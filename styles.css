@@ -7,18 +7,19 @@ body {
     background-color: hsla(0, 0%, 0%, 0.5);
     padding-left: 70px;
 }
+/*Header*/
 h6 {
     margin-bottom: 0;    /* Remove bottom margin for the title */
     padding-bottom: 0.5rem 1rem;   /* Remove bottom padding for the title */
 }
 
 custom-link {
-    color: hsl(0, 100%, 100%);;
+    color: hsl(0, 100%, 100%);
 }
 
 .header {
     display: flex;
-    justify-content: space-between;*/
+    justify-content: space-between;
     justify-content: space-around;
     align-items: center;
     column-gap: 1rem;
@@ -30,8 +31,6 @@ custom-link {
     background-color: hsla(0, 0%, 0%, 0.406);
     margin-top: 0.5rem 1rem; /* Ensure no margin on top */
     padding-top: 0.5rem 1rem; /* Ensure no padding on top */
-    border: 1px solid red; /* Temporary border to see submenu area */
-    background-color: #28a746; /* Make it visible */
 }
 
 .header__logo {
@@ -49,54 +48,7 @@ custom-link {
     align-items: left;
 }
 
-.header__ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-}
-
-.header__li {
-    padding: 0.5rem 1rem; /* Adjust these values as needed */
-    border-radius: 0.25rem; /* Optional: keep a consistent rounded look */
-}
-
-.header__a {
-    display: block;
-    padding-inline: 1.5rem;
-    padding-block: 0.8rem;
-    color: hsl(0, 0%, 100%);
-    background: rgb(0, 0, 0);
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
-    border-radius: 0.5rem;
-}
-
-.header__a:hover {
-    color: hsl(0, 0%, 100%);
-}
-
-.header__li:hover a{ 
-    background: #34495e;
-}
-
-@media screen and (max-width: 1090px) {
-    .header {
-        padding-block: 3rem;
-        flex-direction: column;
-    }
-    
-    .header__ul {
-        margin-block-end: 0;
-        margin-block-start: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-        background: hsla(0, 0%, 0%);
-    }
-}
-
+/*Gallery*/
 .gallery{
     display: inline-block;
     border: 0px solid hsl(0, 0%, 60%);
@@ -114,32 +66,65 @@ custom-link {
     width: 100%;
     height: auto;
 }
+/**************************/
 
-.header__li:hover a{ 
-    background: #34495e;
+.dropdown ul, .dropdown{
+    margin: 0;
+    padding: 0;
 }
 
+.dropdown ul{
+    background: gray;
+    list-style: none;
+    width: 100;
+}
+
+.dropdown li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdown a{
+    background: #000000;
+    color: hsl(0, 100%, 100%);
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 55px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.dropdownmenu li:hover a{
+    background: #34495e;
+}
 
 #submenu{
     left: 0;
     opacity: 0;
     position: absolute;
-    top: 100%;
+    top: 35px;
     visibility: hidden;
     z-index: 1;
-    list-style: none;
 }
+
 li:hover ul#submenu{
     opacity: 1;
+    top: 80px;
     visibility: visible;
 }
+
 #submenu li{
     float: none;
     width: 100%;
 }
+
 #submenu a:hover{
-    background: #34495e
+    background: #34495e;
 }
+
 #submenu a{
-    background-color: #000000;
+    background-color: #3e1532;
 }
