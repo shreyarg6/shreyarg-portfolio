@@ -121,6 +121,8 @@ custom-link {
     visibility: hidden;
     z-index: 1;
     list-style: none;
+    border: 1px solid red; /* Temporary border to see submenu area */
+    background-color: #28a746; /* Make it visible */
 }
 li:hover ul#submenu{
     opacity: 1;
