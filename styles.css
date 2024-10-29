@@ -4,13 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    min-block-size: 100vb;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
     line-height: 1.5;
-    color: hsl(0, 100%, 100%);
-    background-color: hsl(0, 0%, 0%);
-    padding-top: 70px;
 }
 /*Header/Nav
 
@@ -40,8 +35,31 @@ header {
 ul{
     display: flex;
     list-style: none; 
-    align-items: center;
+} 
+nav li{
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all linear 5s;
+    margin-right: 20px;
 }
+
+nav li a{
+    text-decoration: none;
+    color: #34495e;
+    font-weight: 500;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
 
 /*
 .header__logo {
