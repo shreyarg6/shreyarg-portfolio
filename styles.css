@@ -12,17 +12,19 @@ body {
     background-color: hsl(0, 0%, 0%);
     padding-top: 70px;
 }
-/*Header/Nav*/
+/*Header/Nav
+
 .container {
     width: 100%;
     max-width: 1200px;
     position: fixed;
     top: 0;
     z-index: 1000;
-    background-color: #34495e; /* example color */
+    background-color: #34495e;
     padding-left: 1rem;
     padding-right: 1rem;
 }
+*/
 header {
     padding: 30px 20px;
     background: #34495e;
