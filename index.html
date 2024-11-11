@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Shreya's Portfolio</title>
+    <style>
+
+        #submenu{
+            left: 0;
+            opacity: 0;
+            width: 100%; /* Make submenu match the width of the parent item */
+            position: absolute;
+            top: 100%;
+            visibility: hidden;
+            z-index: 1;
+        }
+
+        li:hover ul#submenu{
+            opacity: 1;
+            top: 100%;
+            visibility: visible;
+        }
+
+        #submenu li{
+            float: none;
+            width: 100%;
+        }
+
+        #submenu a:hover{
+            background: #34495e;
+        }
+
+        #submenu a{
+            background-color: #3e1532;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,6 +48,10 @@
                     <li class="links"><a href="pages/aboutme.html" target="_self">About Me</a></li>
                     <li class="links"><a href="pages/webdevprojects.html" target="_self">Web Dev Projects</a></li>
                     <li class="links"><a href="pages/cgt172projects.html" target="_self">CGT 172 Projects</a></li>
+                        <ul id="submenu">
+                            <li><a href="./pages/starship.html" target="_self">Project Starship</a></li>
+                            <li><a href="./pages/shopping.html" target="_self">Project Shopping</a></li>
+                        </ul>
                     <li class="links"><a href="pages/contact.html" target="_self">Contact Me</a></li>
                 </ul>
             </nav>
