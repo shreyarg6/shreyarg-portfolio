@@ -7,82 +7,85 @@
     <link rel="stylesheet" href="styles.css">
     <title>Shreya's Portfolio</title>
     <style>
-        .nav ul, .nav li{
+        @import url('https://fonts.googleapis.com/css2?family=Gotham+Rounded:wght@300;400;500;600;700&display=swap');
+
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
-        .nav ul{
-            background: transparent;
-            list-style: none;
-            width: 100;
+        body {
+            background-color: #ebd9b0;
+            font-family: 'Gotham Rounded', sans-serif;
+            display: grid;
+            place-items: center;
         }
 
-        .nav li{
-            float: left;
-            position: relative;
-            width: auto;
-            padding: 0;
-            margin: 0;
-        }
-
-        .nav a{
-            background: transparent;
-            color: hsl(0, 100%, 100%);
-            display: block;
-            font-weight: bold;
-            font-size: 13px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            padding: 15px 55px;
-            text-decoration: none;
-            transition: all 0.25s ease;
-        }
-
-        .nav li:hover a{
-            background: #a37097;
-        }
-
-        #submenu{
-            left: 0;
-            opacity: 0;
-            width: 100%; /* Make submenu match the width of the parent item */
-            position: absolute;
-            top: 100%;
-            visibility: hidden;
-            z-index: 1;
-        }
-
-        li:hover ul#submenu{
-            opacity: 1;
-            top: 100%;
-            visibility: visible;
-        }
-
-        #submenu li{
-            /*float: none;*/
+        ul.menu {
+            margin-top: 200px;
             width: 100%;
+            max-width: 300px;
+            color: #353b3F;
+            position: relative;
+            cursor: pointer;
         }
 
-        #submenu a:hover{
-            background: #a37097;
+        ul.menu li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem;
         }
 
-        #submenu a{
-            /*padding: 10px 20px;*/
-            display: block;
-            background-color: #4c073c;
+        .menu .submenu {
+            opacity: 0;
+            pointer-events: none;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            background-color: #353B3F;
+            border-radius: 1rem;
+            padding: 1rem;
+            transition: all .3s ease;
+        }
+        .menu .submenu li {
+            color: white;
+            padding: 1rem;
+            border-radius: .5rem;
+            cursor: pointer;
+            transition: background .2s ease;
         }
 
-        .header__container {
-            /*display: flex;*/
-            align-items: center; 
+        .menu .submenu li:nth-child(1):hover {
+            background-color: #65D076;
         }
-        .content {
-            padding: 30px; /* Adds space around the content */
+        .menu .submenu li:nth-child(2):hover {
+            background-color: #4B82FF;
+        }
+        .menu .submenu li:nth-child(3):hover {
+            background-color: #42B3DB;
+        }
+        .menu .submenu li:nth-child(4):hover {
+            background-color: #FA7E91;
+        }
+        .menu .submenu li:nth-child(5):hover {
+            background-color: #A073FF;
         }
 
-        header h1 {
-            color: #e0d9de; 
+        .menu img {
+            width: 1.1rem;
+            transition: transform .2s ease;
+        }
+
+        .menu:hover img {
+            transform: rotate(180deg);
+        }
+
+        .menu:hover .submenu {
+            top: 100%;
+            opacity: 1;
+            pointer-events: all;
         }
     </style>
 </head>
