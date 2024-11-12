@@ -7,6 +7,40 @@
     <link rel="stylesheet" href="styles.css">
     <title>Shreya's Portfolio</title>
     <style>
+        .nav ul, .nav li{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav ul{
+            background: gray;
+            list-style: none;
+            width: 100;
+        }
+
+        .nav li{
+            float: left;
+            position: relative;
+            width: auto;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav a{
+            background: #000000;
+            color: hsl(0, 100%, 100%);
+            display: block;
+            font-weight: bold;
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            padding: 15px 55px;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+
+        .nav li:hover a{
+            background: #34495e;
+        }
 
         #submenu{
             left: 0;
@@ -36,6 +70,11 @@
         #submenu a{
             background-color: #3e1532;
         }
+
+        .header__container {
+            display: flex;
+            align-items: center; /* Align items vertically in the center */
+        }
     </style>
 </head>
 <body>
@@ -57,26 +96,6 @@
             </nav>
         </div>
     </header>
-    <!---
-    <section id="home">
-        <h1>Home</h1>
-    </section>
-    <section id="aboutme">
-        <h1>About Me</h1>
-    </section>
-    <section id="webdevprojects">
-        <h1>Web Dev Projects</h1>
-    </section>
-    <section id="cgt172projects">
-        <h1>CGT 172 Projects</h1>
-    </section>
-    <section id="contact">
-        <h1>Contact Me</h1>
-    </section>
-    <script>
-        const li=document.querySelectorAll()
-    </script>
-    --->
         <!-- Content Section -->
         <div class="content">
             <h1>Welcome to Shreya's Portfolio</h1>
