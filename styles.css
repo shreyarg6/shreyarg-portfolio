@@ -33,6 +33,7 @@ header {
     width: 100%;
     z-index: 1111;
 }
+/*
 .main-head{
     display: flex;
     justify-content: space-between;
@@ -57,13 +58,7 @@ nav li a{
     font-weight: 500;
     padding: 5px;
 }
-
-#home{
-    background: linear-gradient(rgba(rgba(0,0,0,0.5)),rgba(0,0,0,0.5))
-    url("assets/images/bg.jpg") no-repeat center center/cover;
-
-}
-
+*/
 /*
 .header__logo {
     margin: 0; 
