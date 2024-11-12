@@ -8,6 +8,10 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
 }
+.content {
+    padding: 20px; /* Adds space around the content */
+}
+
 /*Header/Nav
 
 .container {
