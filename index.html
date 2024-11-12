@@ -7,85 +7,82 @@
     <link rel="stylesheet" href="styles.css">
     <title>Shreya's Portfolio</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Gotham+Rounded:wght@300;400;500;600;700&display=swap');
-
-        * {
+        .nav ul, .nav li{
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
 
-        body {
-            background-color: #ebd9b0;
-            font-family: 'Gotham Rounded', sans-serif;
-            display: grid;
-            place-items: center;
+        .nav ul{
+            background: transparent;
+            list-style: none;
+            width: 100;
         }
 
-        ul.nav {
-            margin-top: 200px;
-            width: 100%;
-            max-width: 300px;
-            color: #353b3F;
+        .nav li{
+            float: left;
             position: relative;
-            cursor: pointer;
+            width: auto;
+            padding: 0;
+            margin: 0;
         }
 
-        ul.nav li {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.5rem;
+        .nav a{
+            background: transparent;
+            color: hsl(0, 100%, 100%);
+            display: block;
+            font-weight: bold;
+            font-size: 13px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding: 15px 55px;
+            text-decoration: none;
+            transition: all 0.25s ease;
         }
 
-        .nav .submenu {
-            opacity: 0;
-            pointer-events: none;
-            position: absolute;
-            top: 50%;
+        .nav li:hover a{
+            background: #a37097;
+        }
+
+        #submenu{
             left: 0;
-            background-color: #353B3F;
-            border-radius: 1rem;
-            padding: 1rem;
-            transition: all .3s ease;
-        }
-        .nav .submenu li {
-            color: white;
-            padding: 1rem;
-            border-radius: .5rem;
-            cursor: pointer;
-            transition: background .2s ease;
-        }
-
-        .nav .submenu li:nth-child(1):hover {
-            background-color: #65D076;
-        }
-        .nav .submenu li:nth-child(2):hover {
-            background-color: #4B82FF;
-        }
-        .nav .submenu li:nth-child(3):hover {
-            background-color: #42B3DB;
-        }
-        .nav .submenu li:nth-child(4):hover {
-            background-color: #FA7E91;
-        }
-        .nav .submenu li:nth-child(5):hover {
-            background-color: #A073FF;
-        }
-
-        .nav img {
-            width: 1.1rem;
-            transition: transform .2s ease;
-        }
-
-        .nav:hover img {
-            transform: rotate(180deg);
-        }
-
-        .nav:hover .submenu {
+            opacity: 0;
+            width: 100%; /* Make submenu match the width of the parent item */
+            position: absolute;
             top: 100%;
+            visibility: hidden;
+            z-index: 1;
+        }
+
+        li:hover ul#submenu{
             opacity: 1;
-            pointer-events: all;
+            top: 100%;
+            visibility: visible;
+        }
+
+        #submenu li{
+            /*float: none;*/
+            width: 100%;
+        }
+
+        #submenu a:hover{
+            background: #a37097;
+        }
+
+        #submenu a{
+            /*padding: 10px 20px;*/
+            display: block;
+            background-color: #4c073c;
+        }
+
+        .header__container {
+            /*display: flex;*/
+            align-items: center; 
+        }
+        .content {
+            padding: 30px; /* Adds space around the content */
+        }
+
+        header h1 {
+            color: #e0d9de; 
         }
     </style>
 </head>
