@@ -45,17 +45,16 @@ ul{
     display: flex;
     list-style: none; 
 } 
-
+/*
 nav li{
     padding: 5px 10px;
     border: none;
     display: inline-block;
     padding: 5px;
-}
-/*
-    padding: 5px;
-    transition: all linear 5s;
     margin-right: 20px;
+}
+
+
 
 nav li a{
     text-decoration: none;
