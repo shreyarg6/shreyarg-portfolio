@@ -33,7 +33,7 @@ header {
     width: 100%;
     z-index: 1111;
 }
-/*
+
 .main-head{
     display: flex;
     justify-content: space-between;
@@ -50,12 +50,12 @@ ul{
 nav li{
     padding: 5px 10px;
     border: none;
-    display: inline-block;
+    display: block;
     padding: 5px;
     transition: all linear 5s;
     margin-right: 20px;
 }
-
+/*
 nav li a{
     text-decoration: none;
     color: #ffffff;
