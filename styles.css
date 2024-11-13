@@ -33,12 +33,13 @@ header {
     width: 100%;
     z-index: 1111;
 }
+/*
 .main-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/*
+
 ul{
     display: flex;
     list-style: none; 
