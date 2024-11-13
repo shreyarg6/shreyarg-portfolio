@@ -38,11 +38,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+/*
 ul{
     display: flex;
     list-style: none; 
 } 
-/*
+
 nav li{
     padding: 5px 10px;
     border: none;
