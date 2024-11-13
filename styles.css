@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
 }
 .content {
-    padding: 30px;
+    padding: 30px; /* Adds space around the content */
 }
 
 /*Header/Nav*/
@@ -61,7 +61,7 @@ header {
 #submenu{
     left: 0;
     opacity: 0;
-    /*width: 100%;*/
+    /*width: 100%; \*/
     position: absolute;
     top: 100%;
     visibility: hidden;
@@ -105,7 +105,6 @@ header h1 {
     color: #e0d9de; 
 }
 
-
 /*Gallery*/
 .gallery{
     display: inline-block;
@@ -125,3 +124,65 @@ header h1 {
     height: auto;
 }
 /**************************/
+/*
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0;
+    padding: 0;
+}
+
+.dropdownmenu ul{
+    background: gray;
+    list-style: none;
+    width: 100;
+}
+
+.dropdownmenu li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background: #000000;
+    color: hsl(0, 100%, 100%);
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 55px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.dropdownmenu li:hover a{
+    background: #34495e;
+}
+
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+
+#submenu li{
+    float: none;
+    width: 100%;
+}
+
+#submenu a:hover{
+    background: #34495e;
+}
+
+#submenu a{
+    background-color: #3e1532;
+}
+*/
