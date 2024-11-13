@@ -8,6 +8,15 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
 }
+
+.h2{
+    color: rgb(127, 48, 142)
+}
+.h3{
+    color: rgb(105, 70, 112)
+}
+
+
 .content {
     padding: 30px; /* Adds space around the content */
 }
