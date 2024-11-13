@@ -9,9 +9,10 @@ body {
     line-height: 1.5;
 }
 .content {
-    padding: 30px; /* Adds space around the content */
+    padding: 30px;
 }
 
+/*Header/Nav*/
 header {
     padding: 30px 20px;
     padding-bottom: 70px;
@@ -60,7 +61,7 @@ header {
 #submenu{
     left: 0;
     opacity: 0;
-    /*width: 100%; Make submenu match the width of the parent item */
+    /*width: 100%;*/
     position: absolute;
     top: 100%;
     visibility: hidden;
@@ -103,3 +104,24 @@ li:hover ul#submenu{
 header h1 {
     color: #e0d9de; 
 }
+
+
+/*Gallery*/
+.gallery{
+    display: inline-block;
+    border: 0px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    width: 200px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 2px solid hsl(0, 0%, 20%);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+/**************************/
