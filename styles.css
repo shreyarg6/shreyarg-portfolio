@@ -25,6 +25,7 @@ body {
     padding-right: 1rem;
 }
 */
+/*
 header {
     padding: 30px 20px;
     background: #81326e;
@@ -33,7 +34,7 @@ header {
     width: 100%;
     z-index: 1111;
 }
-/*
+
 .main-head{
     display: flex;
     justify-content: space-between;
