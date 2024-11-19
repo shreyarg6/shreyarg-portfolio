@@ -213,8 +213,8 @@ ul li a:hover::after{
     flex-basis: 50%;
 }
 .right-column img{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
 }
 .left-column h1{
     font-size: 50px;
