@@ -157,7 +157,7 @@ header h1 {
 }
 
 #one {
-	background-image: linear-gradient(to right, rgb(153, 104, 159) 50%, rgb(14, 11, 15) 50%);
+	background-image: linear-gradient(to right, rgb(153, 104, 159) 50%, rgb(204, 193, 207) 50%);
 	background-size: 200%;
 	transition: 0.4s ease-out;
 }
