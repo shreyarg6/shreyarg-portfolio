@@ -10,6 +10,9 @@ body {
     line-height: 1.5;
 }
 
+.navbar h1{
+    font-size: 15px;
+}
 h2{
     color: rgb(127, 48, 142);
 }
