@@ -200,6 +200,13 @@ ul li a:hover::after{
     width: 100%;
 
 }
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-column,.right-column{
+    flex-basis: 50%;
+}
 
 
 /*
