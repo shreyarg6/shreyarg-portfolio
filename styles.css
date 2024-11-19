@@ -55,7 +55,7 @@ header {
 
 .nav a{
     background: transparent;
-    color: hsl(0, 100%, 100%);
+    color: hsl(0, 25%, 2%);
     display: block;
     font-weight: bold;
     font-size: 13px;
