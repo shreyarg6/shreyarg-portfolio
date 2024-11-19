@@ -207,6 +207,9 @@ ul li a:hover::after{
 .left-column,.right-column{
     flex-basis: 50%;
 }
+.right-column img{
+    width: 100%;
+}
 
 
 /*
