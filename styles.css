@@ -188,13 +188,17 @@ ul li a{
 }
 ul li a::after{
     content: '';
-    width: 100%;
+    width: 0;
     height: 10px;
     background: #f14a60;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: -50%;
+}
+ul li a:hover::after{
+    width: 100%;
+
 }
 
 
