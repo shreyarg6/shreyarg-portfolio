@@ -211,6 +211,12 @@ ul li a:hover::after{
     width: 200px;
     height: 200px;
 }
+.left-column h1{
+    font-size: 100px;
+}
+span{
+    color: #602059;
+}
 
 
 /*
