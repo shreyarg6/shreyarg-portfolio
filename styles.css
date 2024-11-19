@@ -92,7 +92,8 @@ li:hover ul#submenu{
 }
 
 #submenu a:hover{
-    background: #a79fa5;
+    background: #a37097;
+    ;
 }
 
 #submenu a:hover ul.dropdown{
@@ -102,7 +103,7 @@ li:hover ul#submenu{
 #submenu a{
     /*padding: 10px 20px;*/
     display: block;
-    background-color: #893275;
+    background-color: #612b55;
 }
 
 .header__container {
