@@ -217,9 +217,7 @@ ul li a:hover::after{
 }
 .right-column img{
     width: 400px;
-    height: 400px;
-    justify-content: flex-end;
-    
+    height: 400px;    
 }
 .left-column h1{
     font-size: 50px;
