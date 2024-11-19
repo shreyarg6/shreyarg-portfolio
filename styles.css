@@ -191,6 +191,7 @@ ul li a{
     padding-top: 0 100px;
     position: relative;
 }
+/**
 ul li a::after{
     content: '';
     width: 0;
@@ -201,6 +202,7 @@ ul li a::after{
     transform: translateX(-50%);
     top: -50%;
 }
+***/
 ul li a:hover::after{
     width: 100%;
 
