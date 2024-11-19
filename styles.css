@@ -191,7 +191,7 @@ ul li a::after{
     content: '';
     width: 0;
     height: 10px;
-    background: #f14a60;
+    background: #671a6a;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -216,7 +216,7 @@ ul li a:hover::after{
     font-size: 50px;
 }
 span{
-    color: #602059;
+    color: #000000;
 }
 
 
