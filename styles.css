@@ -238,6 +238,7 @@ span{
     cursor: pointer;
     color:#713f80;
     background: transparent;
+    text-decoration: none;
 }
 /*
 .btn:hover{
