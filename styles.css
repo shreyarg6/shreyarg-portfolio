@@ -257,7 +257,7 @@ span{
     width: 100%;
     height: 400px;
     display: block;
-    background: url(./assets/images/sbanner.png);
+    background: url(./assets/images/starshipBanner.png);
 }
 .bigletters {
     position: absolute;
@@ -273,7 +273,7 @@ span{
     width: 100%;
     height: 400px;
     display: block;
-    background: url(./assets/images/sbanner2.png);
+    background: url(./assets/images/starshipBanner2.png);
 }
 .bigletters2 {
     position: absolute;
