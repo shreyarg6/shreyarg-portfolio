@@ -246,6 +246,11 @@ span{
     background: transparent;
     text-decoration: none;
 }
+.btn button:hover {
+    background-color: #19121b; /* Fills the button background with the border color */
+    color: #fff; /* Changes the text color to white for better contrast */
+    transition: all 0.3s ease; /* Adds a smooth transition effect */
+}
 
 
 
