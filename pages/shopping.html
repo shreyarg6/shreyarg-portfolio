@@ -9,17 +9,17 @@
 
 <body>
     <link rel="stylesheet" href="../styles.css">
-    <header>
-        <div class="container">
+    <div class="hero">
+        <div class="navbar">
             <h1>Shreya's Portfolio</h1>
             <nav class="nav">
                 <ul>
-                    <li class="links"><a href="../index.html" target="_self">Home</a></li>
-                    <li class="links"><a href="./aboutme.html" target="_self">About Me</a></li>
-                    <li class="links"><a href="./webdevprojects.html" target="_self">Web Dev Projects</a></li>
-                    <li class="links"><a href="./cgt172projects.html" target="_self">CGT 172 Projects</a>
+                    <li><a href="../index.html" target="_self">Home</a></li>
+                    <li><a href="./aboutme.html" target="_self">About Me</a></li>
+                    <li><a href="./webdevprojects.html" target="_self">Web Dev Projects</a></li>
+                    <li><a href="./cgt172projects.html" target="_self">CGT 172 Projects</a>
                         <ul id="submenu">
-                            <li><a href="./ex1.html" target="_self">Exercise 1: The Value of UX</a></li>
+                            <li><a href="./ex1.html" target="_self">Exercise 1</a></li>
                             <li><a href="./starship.html" target="_self">Project 1: Starship</a></li>
                             <li><a href="./shopping.html" target="_self">Project 2: Shopping</a></li>
                             <li><a href="./AI.html" target="_self">Project 3: AI</a></li>
@@ -29,95 +29,101 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </div>
+
+    <div class="bigpic">
+        <span class="bigletters"></span>
+    </div>
 
     <!-- Content Section -->
-    <div class="content">
-        <h1>Project 2: Embodied Shopping</h1>
-        <h2>Seasonal Scavenger Hunt</h2>
-        <br> <!-- adds a line break between paragraphs -->
-        <h2>Solution</h2>
-        <p>Our final design incorporates an adventure aspect that appeals to children and families with in the form a scavenger hunt style game. It includes stamp cards (physical and digital) for free sample stands located around the store. Going up to each of the stands results in a stamp on the card, and getting all four stamps results in a coupon and candy.</p>
-        <br> <!-- adds a line break between paragraphs -->
-        <h2>Initial Design Process</h2>
-        <h3>Brainstorming</h3>
-            <li>Navigation in-store via screens</li>
-            <li>Navigation tool that uses lights to direct you where you need to go</li>
-            <li>Lights on the price tag to signal item location</li>
-            <li>Adventure/game aspect that appeals to children</li>
-            <li>If there are free samples, going up to each of the locations also builds up to a coupon</li>
-            <li>Promote the most bought item of the week</li> 
-        <br> <!-- adds a line break between paragraphs -->
-        <h2>Observations</h2>
-        <h3>Things we looked out for during our observations</h3>
-            <li>Time the walk to each corner</li>
-            <li>Note where products are</li>
-            <li>Waiting time for checkout</li>
-            <li>See if shoppers are actually inspecting their produce</li>
-            <li>Observe shopper groups (alone vs family, etc)</li>
-            <li>See how many items shoppers have</li> 
-        <img src="../assets/images/proj2pic1.jpg" alt="Project 2" width="200">
-        <img src="../assets/images/proj2pic2.jpg" alt="Project 2" width="200">
-        <br> <!-- adds a line break between paragraphs -->
-        <br> <!-- adds a line break between paragraphs -->
-        <h2>Data Collection</h2>
-        <h3>Interview Questions</h3>
-            <li>How often do you go grocery shopping (in-person/online)? (How many times a week?)</li>
-            <li>When you grocery shop, do you usually take your time, or are you in a rush?</li>
-            <li>Do you tend to shop alone or with others (family)?</li>
-            <li>Do you value inspecting your items?</li>
-            <li>Do you find yourself spending most of your time in a specific area/category?</li>
-            <li>Do you grocery shop in-person or online more? Do you prefer one over the other?</li>
-            <li>What do you like (if anything) about in-person grocery shopping?</li>
-            <li>What do you not like/bad experiences with in-person grocery shopping?</li>
-            <li>What do you like (if anything) about online grocery shopping?</li>
-            <li>What do you not like/bad experiences with online grocery shopping?</li>
-        <h3>Interview Takeaways</h3>
-        <p>From our interviews, we found that most of our interviewees preferred shopping in person due to being able to inspect their groceries. We also found that many tended to shop alone and either took their time making a grocery list or on their first shopping trip would be in a rush after that, only going to the sections of the store that they needed to go to.  A rushed shopper also pointed out that those shopping in a rush may want to save money, but don’t want to spend the time stopping at stands or going to locations out of their way. One of the interviewees also brought up past experiences shopping with their young kids. From this, we began to shift our focus away from having shoppers (who may be in a rush) save money to having shoppers visit the store with their family or close ones, taking the time to shop and connect with their loved ones as they try new food. </p>
-        <h3>Survey Questions</h3>
-            <li>Do you prefer shopping online or in person?</li>
-            <li>Did you ever have a bad experience with online shopping? If so, please share your experience(s).</li>
-            <li>Did you ever have a bad experience with shopping in person? If so, please share your experience(s).</li>
-            <li>Which do you value more? Inspecting your grocery items or the convenience of picking them up quickly?</li>
-            <li>Do you tend to shop alone or with others?</li>
-            <li>When you shop, do you usually take your time, or are you in a rush?</li>
-            <li>Is there a specific design of a grocery store you like? If so, describe why that is.</li>
-            <li>Where in a grocery store do you find yourself spending the most time and why?</li>
-            <li>If a grocery store offers more deals/sales/coupons, would that make you visit them more often?</li>
-            <li>In grocery stores, does receiving free food samples from food stands convince you to buy the promoted food item?</li>
-            <li>In a scenario where you can win a free coupon by searching for items throughout the grocery store, would you be willing to do so?</li>
-        <h3>Survey Takeaways</h3>
-        <p>Overall, the surveys revealed many shopping habits. Some key takeaways were that the majority of shoppers shopped alone and in person. This was likely due to more negative experiences with online shopping and the preference to take the time to inspect the items in person. Shoppers who responded also tended to take their time in the store and spend that time in areas with items that needed to be inspected or areas with their favorite foods. </p>
-        <br> <!-- adds a line break between paragraphs -->
-        <hr width="100%" size="2">
-        <h2>Final Prototype</h2>
-        <h3>Core Theme: <span style="color: rgb(0, 0, 0)">Creating nostalgic core memories for families</span></h3>
-        <h3>Design Features</h3>
-            <li>Kids get a reward at the end relevant to them (candy instead of coupon). (Coupon for parents/adults, candy for everyone.)</li>
-            <li>Food stands last a week, coupons last the whole month.</li>
-            <li>If you collect all 12 cards and bring them back at the end of the year, you receive a $10 coupon.</li>
-            <li>If families have trouble finding the sample stands or are in a rush, they can ask one of the stands for hints on other locations.</li>
-            <li>A QR code at the front of the store allows app users to skip collecting a physical card.</li>
-            <li>Each free sample uses multiple ingredients to create fun food ideas, encouraging families to buy multiple foods and recreate the crafts at home.</li>
-            <li>The grocery store layout shows four free sample stands located in the four zones of the store. Each cycle, the sample stand locations will change but remain within these zones.</li>
-        <img src="../assets/images/Grocery Layout 1.jpg" alt="Project 2" width="200">
-        <h3>Digital Card Prototype</h3>
-        <img src="../assets/images/digitalcardpic.png" alt="Project 2" width="400">
-        <br> <!-- adds a line break between paragraphs -->
-        <a href="https://www.figma.com/proto/scSZy5wL0voxTx6D0EfCow/project-2?node-id=0-1&t=1EZ4dCWgeMlTgZAa-1">
-            <button class="button" id="one" target="_blank">
-                <span>Scavenger Hunt Digital Prototype</span>
-            </button>
-        </a>
-        <h3>Physical Card Design</h3>
-        <p>The back of the card includes information about the hunt, a drawing contest to get customers involved, the winner of the previous contest, some treat recommendations, and a qr code to submit photos from the event for a prize. These photos can be used promotionally for the future. The front of the card includes the characters that would need to be stamped in order to collect the coupon and candy.</p>
-        <img src="../assets/images/v2_project 2 card back (1).jpg" alt="Project 2" width="300">
-        <img src="../assets/images/SampleCard.JPG" alt="Project 2" width="300">
-        <br> <!-- adds a line break between paragraphs -->
-        <br> <!-- adds a line break between paragraphs -->
-        <h4>Credits</h4>
-        <p>Shreya Guddeti: Digital Prototype Design</p>
-        <p>Group: Shopping Case Study</p>
+    <div class="hero">
+        <div class="content">
+            <h1>Project 2: Embodied Shopping</h1>
+            <h2>Seasonal Scavenger Hunt</h2>
+            <br>
+            <h2>Solution</h2>
+            <p>Our final design incorporates an adventure aspect that appeals to children and families with in the form a scavenger hunt style game. It includes stamp cards (physical and digital) for free sample stands located around the store. Going up to each of the stands results in a stamp on the card, and getting all four stamps results in a coupon and candy.</p>
+            <br>
+            <h2>Initial Design Process</h2>
+            <h3>Brainstorming</h3>
+                <li>Navigation in-store via screens</li>
+                <li>Navigation tool that uses lights to direct you where you need to go</li>
+                <li>Lights on the price tag to signal item location</li>
+                <li>Adventure/game aspect that appeals to children</li>
+                <li>If there are free samples, going up to each of the locations also builds up to a coupon</li>
+                <li>Promote the most bought item of the week</li> 
+            <br> 
+            <h2>Observations</h2>
+            <h3>Things we looked out for during our observations</h3>
+                <li>Time the walk to each corner</li>
+                <li>Note where products are</li>
+                <li>Waiting time for checkout</li>
+                <li>See if shoppers are actually inspecting their produce</li>
+                <li>Observe shopper groups (alone vs family, etc)</li>
+                <li>See how many items shoppers have</li> 
+            <img src="../assets/images/proj2pic1.jpg" alt="Project 2" width="200">
+            <img src="../assets/images/proj2pic2.jpg" alt="Project 2" width="200">
+            <br>
+            <br>
+            <h2>Data Collection</h2>
+            <h3>Interview Questions</h3>
+                <li>How often do you go grocery shopping (in-person/online)? (How many times a week?)</li>
+                <li>When you grocery shop, do you usually take your time, or are you in a rush?</li>
+                <li>Do you tend to shop alone or with others (family)?</li>
+                <li>Do you value inspecting your items?</li>
+                <li>Do you find yourself spending most of your time in a specific area/category?</li>
+                <li>Do you grocery shop in-person or online more? Do you prefer one over the other?</li>
+                <li>What do you like (if anything) about in-person grocery shopping?</li>
+                <li>What do you not like/bad experiences with in-person grocery shopping?</li>
+                <li>What do you like (if anything) about online grocery shopping?</li>
+                <li>What do you not like/bad experiences with online grocery shopping?</li>
+            <h3>Interview Takeaways</h3>
+            <p>From our interviews, we found that most of our interviewees preferred shopping in person due to being able to inspect their groceries. We also found that many tended to shop alone and either took their time making a grocery list or on their first shopping trip would be in a rush after that, only going to the sections of the store that they needed to go to.  A rushed shopper also pointed out that those shopping in a rush may want to save money, but don’t want to spend the time stopping at stands or going to locations out of their way. One of the interviewees also brought up past experiences shopping with their young kids. From this, we began to shift our focus away from having shoppers (who may be in a rush) save money to having shoppers visit the store with their family or close ones, taking the time to shop and connect with their loved ones as they try new food. </p>
+            <h3>Survey Questions</h3>
+                <li>Do you prefer shopping online or in person?</li>
+                <li>Did you ever have a bad experience with online shopping? If so, please share your experience(s).</li>
+                <li>Did you ever have a bad experience with shopping in person? If so, please share your experience(s).</li>
+                <li>Which do you value more? Inspecting your grocery items or the convenience of picking them up quickly?</li>
+                <li>Do you tend to shop alone or with others?</li>
+                <li>When you shop, do you usually take your time, or are you in a rush?</li>
+                <li>Is there a specific design of a grocery store you like? If so, describe why that is.</li>
+                <li>Where in a grocery store do you find yourself spending the most time and why?</li>
+                <li>If a grocery store offers more deals/sales/coupons, would that make you visit them more often?</li>
+                <li>In grocery stores, does receiving free food samples from food stands convince you to buy the promoted food item?</li>
+                <li>In a scenario where you can win a free coupon by searching for items throughout the grocery store, would you be willing to do so?</li>
+            <h3>Survey Takeaways</h3>
+            <p>Overall, the surveys revealed many shopping habits. Some key takeaways were that the majority of shoppers shopped alone and in person. This was likely due to more negative experiences with online shopping and the preference to take the time to inspect the items in person. Shoppers who responded also tended to take their time in the store and spend that time in areas with items that needed to be inspected or areas with their favorite foods. </p>
+            <br>
+            <hr width="100%" size="2">
+            <h2>Final Prototype</h2>
+            <h3>Core Theme: <span style="color: rgb(0, 0, 0)">Creating nostalgic core memories for families</span></h3>
+            <h3>Design Features</h3>
+                <li>Kids get a reward at the end relevant to them (candy instead of coupon). (Coupon for parents/adults, candy for everyone.)</li>
+                <li>Food stands last a week, coupons last the whole month.</li>
+                <li>If you collect all 12 cards and bring them back at the end of the year, you receive a $10 coupon.</li>
+                <li>If families have trouble finding the sample stands or are in a rush, they can ask one of the stands for hints on other locations.</li>
+                <li>A QR code at the front of the store allows app users to skip collecting a physical card.</li>
+                <li>Each free sample uses multiple ingredients to create fun food ideas, encouraging families to buy multiple foods and recreate the crafts at home.</li>
+                <li>The grocery store layout shows four free sample stands located in the four zones of the store. Each cycle, the sample stand locations will change but remain within these zones.</li>
+            <img src="../assets/images/Grocery Layout 1.jpg" alt="Project 2" width="200">
+            <h3>Digital Card Prototype</h3>
+            <img src="../assets/images/digitalcardpic.png" alt="Project 2" width="400">
+            <br>
+            <a href="https://www.figma.com/proto/scSZy5wL0voxTx6D0EfCow/project-2?node-id=0-1&t=1EZ4dCWgeMlTgZAa-1">
+                <button class="button" id="one" target="_blank">
+                    <span>Scavenger Hunt Digital Prototype</span>
+                </button>
+            </a>
+            <h3>Physical Card Design</h3>
+            <p>The back of the card includes information about the hunt, a drawing contest to get customers involved, the winner of the previous contest, some treat recommendations, and a qr code to submit photos from the event for a prize. These photos can be used promotionally for the future. The front of the card includes the characters that would need to be stamped in order to collect the coupon and candy.</p>
+            <img src="../assets/images/v2_project 2 card back (1).jpg" alt="Project 2" width="300">
+            <img src="../assets/images/SampleCard.JPG" alt="Project 2" width="300">
+            <br>
+            <br>
+            <h4>Credits</h4>
+            <p>Shreya Guddeti: Digital Prototype Design</p>
+            <p>Group: Shopping Case Study</p>
+        </div>
     </div>
 </body>
 </html>
