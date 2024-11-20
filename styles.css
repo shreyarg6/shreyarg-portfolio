@@ -240,10 +240,8 @@ span{
     background: transparent;
 }
 .btn:hover{
-    background-color: #000000;
-    background-color: #000000; 
-    color: #ffffff; /* Optional: Changes the text color to white for better contrast */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    background: #000000; 
+    transition: background-color 0.3s ease; 
 }
 
 
