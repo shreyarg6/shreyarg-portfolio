@@ -137,7 +137,8 @@ header h1 {
     height: auto;
 }
 
-/*Buttons*/
+/*Buttons
+
 .button {
 	appearance: none;
 	border: none;
@@ -165,6 +166,8 @@ header h1 {
 #one:hover {
 	background-position: right;
 }
+*/
+
 /**************************/
 .hero{
     width: 80%;
@@ -235,10 +238,14 @@ span{
     cursor: pointer;
     color:#713f80;
     background: transparent;
-    background-image: linear-gradient(to right, rgb(153, 104, 159) 50%, rgb(204, 193, 207) 50%);
 }
-.btn{
+.btn:hover{
     background-color: #000000;
+    background-color: #000000; 
+    color: #ffffff; /* Optional: Changes the text color to white for better contrast */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
 
 
 /*
