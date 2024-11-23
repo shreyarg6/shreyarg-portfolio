@@ -273,6 +273,13 @@ span{
     display: block;
     background: url(./assets/images/shoppingBanner.png);
 }
+.bigpic4 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: block;
+    background: url(./assets/images/shoppingBanner.png);
+}
 
 
 /*
